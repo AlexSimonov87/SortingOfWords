@@ -7,11 +7,11 @@ package SortingOfWords;
 
 class FunctionsCountingOfLettersCheckOfKeyboardLayout {
 
-    // вычисление длины слова
+    // вычисление длины слова //
     public int countingTheNumberOfLetters (String word){
         return word.length();
     }
-    // вычисление количества гласных в слове
+    // вычисление количества гласных в слове //
     public int countingTheNumberOfVowels (String string){
 
         char[] arrayOfVowels = new char[]{'а', 'о', 'и', 'е', 'ё', 'э', 'ы', 'у', 'ю', 'я', 'А', 'О', 'И', 'Е', 'Ё', 'Э', 'Ы', 'У', 'Ю', 'Я'};
